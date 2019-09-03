@@ -71,13 +71,13 @@ describe('contact routes', () => {
           },
           {
             _id: expect.any(String),
-            fullname: 'Vasily Suarez',
+            fullname: 'John Suarez',
             phone: 5039893177,
             address: '154 S. Knott St Canby, OR 97013',
           },
           {
             _id: expect.any(String),
-            fullname: 'John Suarez',
+            fullname: 'Vasily Suarez',
             phone: 5039893177,
             address: '154 S. Knott St Canby, OR 97013',
           }
