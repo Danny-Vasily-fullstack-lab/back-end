@@ -65,19 +65,19 @@ describe('contact routes', () => {
         expect(res.body).toEqual([
           {
             _id: expect.any(String),
-            fullname: 'Danny Suarez',
+            fullname: expect.any(String),
             phone: 5039893177,
             address: '154 S. Knott St Canby, OR 97013',
           },
           {
             _id: expect.any(String),
-            fullname: 'John Suarez',
+            fullname: expect.any(String),
             phone: 5039893177,
             address: '154 S. Knott St Canby, OR 97013',
           },
           {
             _id: expect.any(String),
-            fullname: 'Vasily Suarez',
+            fullname: expect.any(String),
             phone: 5039893177,
             address: '154 S. Knott St Canby, OR 97013',
           }
